@@ -9,8 +9,10 @@ while x <= 100
 
   elsif x % 5 == 0
     puts "Maker"
+
   else
     puts x
   end
+  
   x += 1
 end
