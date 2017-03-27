@@ -12,4 +12,6 @@ while num_pizzas != 0
   num_pizzas -= 1
 end
 
-puts order
+order.each do |k,v|
+  puts "For Pizza number #{k} you had #{order[k]} toppings."
+end
