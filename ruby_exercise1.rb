@@ -17,3 +17,10 @@ puts '#{1 == 1.0}' + " is #{1 == 1.0}"
 puts '#{ 1 eql?(1.0)}' + " is #{1.eql?(1.0)} "
 
 #equal? True if the receiver and argument have the same object id.
+
+
+#Strings
+puts "Hello\t\tworld"
+puts "Hello\b\b\b\b\bGoodbye world"
+puts "Hello\rStart over world."
+puts "1. Hello\n2. World"
